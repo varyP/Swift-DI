@@ -32,7 +32,14 @@ class SwinjectViewController: UIViewController {
 //            let vc = SubViewController(container: DefaultContainer.sharedContainer.container)
 //            self.navigationController?.pushViewController(vc, animated: true)
             
-            let vc = InjectSubViewController()
+//            let vc = InjectSubViewController()
+//            self.navigationController?.pushViewController(vc, animated: true)
+            
+            guard let vc = OKGWalletModule.shared.uiFactory.resolveViewController(EthereumViewController.self) else {
+                assertionFailure("resolve failed")
+                return
+            }
+            
             self.navigationController?.pushViewController(vc, animated: true)
         })
     }
