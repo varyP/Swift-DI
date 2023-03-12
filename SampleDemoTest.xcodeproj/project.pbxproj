@@ -35,6 +35,17 @@
 		4025D8E22981A0A60096577B /* dataset-one.json in Resources */ = {isa = PBXBuildFile; fileRef = 4025D8E02981A0A60096577B /* dataset-one.json */; };
 		4025D8E32981A0A60096577B /* dataset-two.json in Resources */ = {isa = PBXBuildFile; fileRef = 4025D8E12981A0A60096577B /* dataset-two.json */; };
 		65C413560708A1134F557030 /* Pods_SampleDemoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B99E58C012598E15E8827D /* Pods_SampleDemoTest.framework */; };
+		915BC0532987836F00895F87 /* UseCaseAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915BC0522987836F00895F87 /* UseCaseAssembly.swift */; };
+		915BC055298783B500895F87 /* FetchEthereumUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915BC054298783B500895F87 /* FetchEthereumUseCase.swift */; };
+		915BC0572987841900895F87 /* EthereumRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915BC0562987841900895F87 /* EthereumRepository.swift */; };
+		915BC05B298784B700895F87 /* RepositoryAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915BC05A298784B700895F87 /* RepositoryAssembly.swift */; };
+		915BC05D2987854700895F87 /* WalletModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915BC05C2987854700895F87 /* WalletModule.swift */; };
+		915BC0622987876100895F87 /* ServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915BC0612987876100895F87 /* ServiceAssembly.swift */; };
+		915BC0652987887000895F87 /* StructuralSwinjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915BC0642987887000895F87 /* StructuralSwinjectViewModel.swift */; };
+		915BC067298788DA00895F87 /* ViewModelAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915BC066298788DA00895F87 /* ViewModelAssembly.swift */; };
+		915BC06A2987893500895F87 /* EthereumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915BC0692987893500895F87 /* EthereumViewController.swift */; };
+		915BC06C29878A0000895F87 /* UIFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915BC06B29878A0000895F87 /* UIFactory.swift */; };
+		915BC06E29878BB400895F87 /* ViewControllerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915BC06D29878BB400895F87 /* ViewControllerAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +85,17 @@
 		4025D8E02981A0A60096577B /* dataset-one.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "dataset-one.json"; sourceTree = "<group>"; };
 		4025D8E12981A0A60096577B /* dataset-two.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "dataset-two.json"; sourceTree = "<group>"; };
 		61D3FCD1D5233CBE76A565B7 /* Pods-SampleDemoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleDemoTest.release.xcconfig"; path = "Target Support Files/Pods-SampleDemoTest/Pods-SampleDemoTest.release.xcconfig"; sourceTree = "<group>"; };
+		915BC0522987836F00895F87 /* UseCaseAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseAssembly.swift; sourceTree = "<group>"; };
+		915BC054298783B500895F87 /* FetchEthereumUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchEthereumUseCase.swift; sourceTree = "<group>"; };
+		915BC0562987841900895F87 /* EthereumRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthereumRepository.swift; sourceTree = "<group>"; };
+		915BC05A298784B700895F87 /* RepositoryAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryAssembly.swift; sourceTree = "<group>"; };
+		915BC05C2987854700895F87 /* WalletModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletModule.swift; sourceTree = "<group>"; };
+		915BC0612987876100895F87 /* ServiceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAssembly.swift; sourceTree = "<group>"; };
+		915BC0642987887000895F87 /* StructuralSwinjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuralSwinjectViewModel.swift; sourceTree = "<group>"; };
+		915BC066298788DA00895F87 /* ViewModelAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelAssembly.swift; sourceTree = "<group>"; };
+		915BC0692987893500895F87 /* EthereumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthereumViewController.swift; sourceTree = "<group>"; };
+		915BC06B29878A0000895F87 /* UIFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFactory.swift; sourceTree = "<group>"; };
+		915BC06D29878BB400895F87 /* ViewControllerAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAssembly.swift; sourceTree = "<group>"; };
 		E5B99E58C012598E15E8827D /* Pods_SampleDemoTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleDemoTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -188,6 +210,7 @@
 		4025D8D2298197060096577B /* SwinjectDI */ = {
 			isa = PBXGroup;
 			children = (
+				915BC0512987834800895F87 /* Structural Container */,
 				4025D8D4298197320096577B /* Container */,
 				4019E168295D65790083623C /* SwinjectViewController.swift */,
 				4019E17D295D9C270083623C /* SubViewController.swift */,
@@ -230,6 +253,72 @@
 				E5B99E58C012598E15E8827D /* Pods_SampleDemoTest.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		915BC0512987834800895F87 /* Structural Container */ = {
+			isa = PBXGroup;
+			children = (
+				915BC07029878CFB00895F87 /* ViewFactory */,
+				915BC0682987892400895F87 /* ViewController */,
+				915BC0632987886100895F87 /* ViewModel */,
+				915BC0602987875200895F87 /* Service */,
+				915BC059298784A200895F87 /* Repository */,
+				915BC0582987849600895F87 /* UseCase */,
+				915BC05C2987854700895F87 /* WalletModule.swift */,
+			);
+			path = "Structural Container";
+			sourceTree = "<group>";
+		};
+		915BC0582987849600895F87 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				915BC0522987836F00895F87 /* UseCaseAssembly.swift */,
+				915BC054298783B500895F87 /* FetchEthereumUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		915BC059298784A200895F87 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				915BC0562987841900895F87 /* EthereumRepository.swift */,
+				915BC05A298784B700895F87 /* RepositoryAssembly.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		915BC0602987875200895F87 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				915BC0612987876100895F87 /* ServiceAssembly.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		915BC0632987886100895F87 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				915BC0642987887000895F87 /* StructuralSwinjectViewModel.swift */,
+				915BC066298788DA00895F87 /* ViewModelAssembly.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		915BC0682987892400895F87 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				915BC0692987893500895F87 /* EthereumViewController.swift */,
+				915BC06D29878BB400895F87 /* ViewControllerAssembly.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		915BC07029878CFB00895F87 /* ViewFactory */ = {
+			isa = PBXGroup;
+			children = (
+				915BC06B29878A0000895F87 /* UIFactory.swift */,
+			);
+			path = ViewFactory;
 			sourceTree = "<group>";
 		};
 		DB849CC8F37C670FE86D7ABE /* Pods */ = {
@@ -390,11 +479,22 @@
 			files = (
 				4019E169295D65790083623C /* SwinjectViewController.swift in Sources */,
 				4019E165295D65790083623C /* AppDelegate.swift in Sources */,
+				915BC0572987841900895F87 /* EthereumRepository.swift in Sources */,
+				915BC05B298784B700895F87 /* RepositoryAssembly.swift in Sources */,
+				915BC05D2987854700895F87 /* WalletModule.swift in Sources */,
 				4019E179295D6A890083623C /* NetworkService.swift in Sources */,
 				4019E17E295D9C270083623C /* SubViewController.swift in Sources */,
+				915BC06A2987893500895F87 /* EthereumViewController.swift in Sources */,
 				4025D8B7297FC97F0096577B /* SwinjectStoryboardContainer.swift in Sources */,
+				915BC0652987887000895F87 /* StructuralSwinjectViewModel.swift in Sources */,
+				915BC067298788DA00895F87 /* ViewModelAssembly.swift in Sources */,
 				4025D8BC297FDD7E0096577B /* InjectSubViewController+DI.swift in Sources */,
+				915BC055298783B500895F87 /* FetchEthereumUseCase.swift in Sources */,
+				915BC0622987876100895F87 /* ServiceAssembly.swift in Sources */,
+				915BC06E29878BB400895F87 /* ViewControllerAssembly.swift in Sources */,
 				4025D8DD29819FE70096577B /* ServiceHelper.swift in Sources */,
+				915BC0532987836F00895F87 /* UseCaseAssembly.swift in Sources */,
+				915BC06C29878A0000895F87 /* UIFactory.swift in Sources */,
 				4019E167295D65790083623C /* SceneDelegate.swift in Sources */,
 				4025D8BA297FDCE30096577B /* InjectSubViewController.swift in Sources */,
 				4025D8B3297FC56A0096577B /* Network.swift in Sources */,
